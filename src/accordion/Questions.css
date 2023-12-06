@@ -1,0 +1,51 @@
+.questions {
+    height:max-content;
+    place-items:center;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 60px;
+}
+.questions > .section-title {
+    font-weight: 400;
+    font-size: 40px;
+}
+.questions > .question {
+    display: grid;
+    grid-template-columns: minmax(500px,1fr) 20px;
+    margin-bottom: 20px;
+    border: 2px solid #f1f5f9;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: start;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px 0 #f1f5f9 ;
+
+}
+.questions > .question > .title {
+    margin: 0;
+    color: #0f172a;
+}
+
+.questions > .question > .iconToggle {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 0;
+    font-size:16px ;
+    background-color: #164e63;
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    align-self: center;
+    display:grid ;
+    place-items: center;
+}
+.questions > .question > .info {
+    color: #babac2;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
