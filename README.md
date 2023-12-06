@@ -20,32 +20,27 @@ The project follows a simple structure:
 
 ## Getting Started
 
-To explore the Q&A component:
+To run the project locally, follow these steps:
 
 1. Clone the repository:
 
 ```
    https://github.com/osamalmezouari/accordion.git 
 ```
-
-## Getting Started
-
-To run the project locally, follow these steps:
-
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 
     ```
     cd tours
     ```
-2. Install dependencies:   
+3. Install dependencies:   
     ```
     npm install
     ```
-3. Run the application:
+4. Run the application:
     ```
     npm run dev
 
-4. Open your browser and visit 
+5. Open your browser and visit 
     ```
     http://localhost:3000 
     ```
